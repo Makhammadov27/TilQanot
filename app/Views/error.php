@@ -1,0 +1,1 @@
+<div class="empty-state error-state"><div class="error-mark">!</div><h1><?= htmlspecialchars($title??'Xatolik',ENT_QUOTES,'UTF-8') ?></h1><p><?= htmlspecialchars($message??'Sahifani topib bo‘lmadi.',ENT_QUOTES,'UTF-8') ?></p><a class="button button-primary" href="index.php">Bosh sahifaga qaytish</a></div>
