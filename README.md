@@ -1,7 +1,5 @@
 # TilQanot — xorijiy tilni o‘rganish sayti
 
-TilQanot — “Xorijiy tillarni o‘rganishga mo‘ljallangan web-site ishlab chiqish” mavzusidagi individual o‘quv loyihasi. O‘zbek tilidagi interfeys, ingliz, ispan va nemis tili kurslari, qisqa darslar va so‘z kartochkalari bilan mashq qilish jarayonini birlashtiradi.
-
 ## Texnologiyalar
 
 - HTML5, CSS3 va JavaScript
@@ -57,8 +55,6 @@ config/                Mahalliy muhit sozlamalari
 database/schema.sql    Jadval tuzilmasi va sinov ma’lumotlari
 docs/                  Hisobot uchun loyiha izohi
 ```
-
-Loyiha tashqi to‘lov, SMS yoki pulli servisga bog‘liq emas. Sinov muhitida HTTPS reverse proxy orqali yoqilishi kerak.
 
 MUI interfeys manbasini o‘zgartirib qayta yig‘ish uchun Node.js o‘rnating, loyiha ichida `npm install` va `npm run build` buyruqlarini bajaring. Oddiy XAMPP orqali foydalanish uchun build fayllari allaqachon berilgan; Node.js ishga tushirishda talab qilinmaydi.
 
