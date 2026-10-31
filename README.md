@@ -13,7 +13,7 @@ TilQanot — “Xorijiy tillarni o‘rganishga mo‘ljallangan web-site ishlab c
 ## Ishga tushirish (XAMPP)
 
 1. XAMPP/Apache, PHP 8.1+ (`pdo_mysql`, `mbstring`) va MySQL/MariaDB ni o‘rnating.
-2. `outputs/tilqanot` papkasini XAMPP `htdocs` ichiga ko‘chiring (yoki virtual host ildizini `public/` papkaga qarating).
+2. yuklab olingan `TilQanot` loyiha papkasini XAMPP `htdocs` ichiga ko‘chiring (yoki virtual host ildizini `public/` papkaga qarating).
 3. phpMyAdmin yoki MySQL terminalida `database/schema.sql` faylini import qiling. U `tilqanot` bazasini yaratib, namunaviy kurslar, darslar va lug‘atni qo‘shadi.
 4. `config/config.example.php` faylidan `config/config.php` nusxa yarating. MySQL host, baza, foydalanuvchi va parolni sozlang. `config/config.php` maxfiy muhit sozlamasi hisoblanadi va versiya nazoratiga kiritilmasligi kerak.
 5. Brauzerda `http://localhost/tilqanot/public/` manzilini oching.
